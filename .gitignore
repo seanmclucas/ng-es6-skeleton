@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.env/
+npm-debug.log
+*.sublime-project
+*.sublime-workspace
+*.sublimelinterrc
+*.DS_Store
+
