@@ -39,7 +39,9 @@ npm run build:prod
 
 ```
 npm run test:unit
+
 OR 
+
 npm run test:unit-watch
 ```
 
