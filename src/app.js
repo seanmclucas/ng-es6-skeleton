@@ -20,4 +20,8 @@ angular.module('ngApp', [
 
 // Angular doesn't handle SVG well. This is required to use
 // SVG icon sprites with the <use> tag and xlink:href attribute.
-.filter('svgLink', $sce => svgIconName => $sce.trustAsResourceUrl(`#${svgIconName}`));
+.filter('svgLink', ($sce) => {
+  'ngInject';
+
+  return svgIconName => $sce.trustAsResourceUrl(`#${svgIconName}`);
+});
