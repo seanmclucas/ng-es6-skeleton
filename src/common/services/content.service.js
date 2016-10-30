@@ -5,6 +5,8 @@ export default class ContentService {
     this.$http = $http;
   }
 
+  // TODO: Remove eslint comment after we enable $http
+  /* eslint-disable class-methods-use-this */
   getContent(contentType) {
     // return this.$http.get('/api/content/:id').then(response => response.data);
     let text = '';

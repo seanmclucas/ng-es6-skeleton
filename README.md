@@ -53,5 +53,10 @@ npm run test:e2e
 ```
 
 ## Linting
+
+```
+npm run lint
+```
+
 TODO: Notes about SublimeLinter config
 Fix issue with common base path resolves
