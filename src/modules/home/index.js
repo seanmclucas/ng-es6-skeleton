@@ -1,9 +1,9 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
+import ContentService from 'common/services/content.service';
 import HomeComponent from './home.component';
 import HomeController from './home.controller';
-import ContentService from 'common/services/content.service';
 
 export default angular.module('app.modules.home', [
   uiRouter,

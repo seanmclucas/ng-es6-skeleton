@@ -42,7 +42,8 @@
     "angular/di": [
       2,
       "$inject"
-    ]
+    ],
+    "no-param-reassign": 0,
   },
   "env": {
     "es6": true,
