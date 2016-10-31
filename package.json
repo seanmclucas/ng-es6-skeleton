@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "A basic Angular 1.5 app skeleton using ES6 and Webpack",
   "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seanmclucas/ng-es6-skeleton.git"
+  },
+  "homepage": "https://github.com/seanmclucas/ng-es6-skeleton",
+  "bugs": "https://github.com/seanmclucas/ng-es6-skeleton/issues",
   "keywords": [
     "webpack",
     "npm",
